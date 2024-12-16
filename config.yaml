@@ -1,0 +1,32 @@
+hyperparameters:
+  radius: 10
+  platform_radius: 0.75
+  field_of_view: 1
+  rotation_angle: 0.2
+  num_sight_lines: 12
+  num_landmarks: 8
+  unique_colors: 1
+
+  max_steps: 500
+
+  num_episodes: 3000
+
+  num_samples: 64 
+  sequence_length: 45
+
+  tgt_update: 10000
+  model_update: 20
+
+  lr: 0.0001
+  gamma: 0.99
+  eps_start: 0.95
+  eps_end: 0.05
+  eps_decay: 10000
+
+  dropout: 0.4
+  n_embd: 128 
+  n_head: 8
+  n_layer: 2 
+
+  buffer_size: 50000
+  min_replay_buffer_size: 1000
